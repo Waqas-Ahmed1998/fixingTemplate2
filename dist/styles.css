@@ -639,9 +639,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
-.tw-text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.tw-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .tw-text-sm {
@@ -657,6 +657,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .tw-font-normal {
@@ -836,6 +841,10 @@ font-family: 'Vazirmatn', sans-serif;*/
     width: fit-content;
   }
 
+  .md\:tw-w-auto {
+    width: auto;
+  }
+
   .md\:tw-space-x-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -844,6 +853,10 @@ font-family: 'Vazirmatn', sans-serif;*/
 
   .md\:tw-rounded-full {
     border-radius: 9999px;
+  }
+
+  .md\:tw-rounded-md {
+    border-radius: 0.375rem;
   }
 
   .md\:tw-p-0 {
@@ -855,14 +868,14 @@ font-family: 'Vazirmatn', sans-serif;*/
     padding-bottom: 0px;
   }
 
-  .md\:tw-px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
   .md\:tw-py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:tw-px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .md\:tw-text-2xl {
