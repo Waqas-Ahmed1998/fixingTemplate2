@@ -708,6 +708,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.tw-text-\[\#3e3e3e\] {
+  --tw-text-opacity: 1;
+  color: rgb(62 62 62 / var(--tw-text-opacity));
+}
+
 .tw-shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -844,10 +849,10 @@ font-family: 'Vazirmatn', sans-serif;*/
     width: fit-content;
   }
 
-  .md\:tw-space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  .md\:tw-space-y-2 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
   }
 
   .md\:tw-space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -860,24 +865,6 @@ font-family: 'Vazirmatn', sans-serif;*/
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:tw-space-y-1 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:tw-space-y-2 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
   }
 
   .md\:tw-p-0 {
@@ -904,10 +891,6 @@ font-family: 'Vazirmatn', sans-serif;*/
     padding-bottom: 1.5rem;
   }
 
-  .md\:tw-pb-1 {
-    padding-bottom: 0.25rem;
-  }
-
   .md\:tw-pb-0 {
     padding-bottom: 0px;
   }
@@ -916,8 +899,8 @@ font-family: 'Vazirmatn', sans-serif;*/
     font-size: 40px;
   }
 
-  .md\:tw-text-\[70px\] {
-    font-size: 70px;
+  .md\:tw-text-\[56px\] {
+    font-size: 56px;
   }
 
   .md\:tw-text-\[36px\] {
@@ -929,13 +912,13 @@ font-family: 'Vazirmatn', sans-serif;*/
     line-height: 1.5rem;
   }
 
+  .md\:tw-text-\[70px\] {
+    font-size: 70px;
+  }
+
   .md\:tw-text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:tw-text-\[56px\] {
-    font-size: 56px;
   }
 
   .md\:tw-font-bold {
@@ -946,16 +929,16 @@ font-family: 'Vazirmatn', sans-serif;*/
     line-height: 40px;
   }
 
-  .md\:tw-leading-\[70px\] {
-    line-height: 70px;
+  .md\:tw-leading-\[56px\] {
+    line-height: 56px;
   }
 
   .md\:tw-leading-\[36px\] {
     line-height: 36px;
   }
 
-  .md\:tw-leading-\[56px\] {
-    line-height: 56px;
+  .md\:tw-leading-\[70px\] {
+    line-height: 70px;
   }
 
   .md\:hover\:tw-bg-\[\#63d029\]:hover {
