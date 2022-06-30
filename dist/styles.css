@@ -587,11 +587,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
-.tw-py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .tw-px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -688,11 +683,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(45 45 45 / var(--tw-text-opacity));
 }
 
-.tw-text-\[\#ab0303\] {
-  --tw-text-opacity: 1;
-  color: rgb(171 3 3 / var(--tw-text-opacity));
-}
-
 .tw-text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -706,11 +696,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-text-\[black\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.tw-text-\[\#3e3e3e\] {
-  --tw-text-opacity: 1;
-  color: rgb(62 62 62 / var(--tw-text-opacity));
 }
 
 .tw-shadow-sm {
@@ -874,11 +859,6 @@ font-family: 'Vazirmatn', sans-serif;*/
   .md\:tw-py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-
-  .md\:tw-py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   .md\:tw-px-5 {
